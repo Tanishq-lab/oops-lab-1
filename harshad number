@@ -1,0 +1,11 @@
+n=int(input("enter a number"))
+a=n
+s=0
+  while a>0:
+     b=a%10
+     s=s+b
+     a=a//b
+if n%s==0:
+   print("yes")
+else:
+   print("no")
