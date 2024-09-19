@@ -1,0 +1,17 @@
+n=int(input("enter a number:"))
+a=c=n
+b=s=0
+while a>0:
+  b=b+1
+  a=a//10
+while c>0:
+  d=c%10
+  f=d**b
+  s=s+f
+  b=b-1
+  c=c//10
+
+if s==n:
+  print(" it is a disarium number")
+else:
+  print("it is not a disarium number")
